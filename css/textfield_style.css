@@ -1,0 +1,14 @@
+/* CSS Document */
+.textfield
+{
+ border: 1px solid #DDD;
+	border-radius: 5px;
+	box-shadow: 0 0 5px #888;
+	color: #666;
+	float: left;
+	text-justify:20px;
+	width: 165px;
+	outline: none;
+		  background:url(../images/heart.png) no-repeat scroll left center #FFFFFF;
+
+}

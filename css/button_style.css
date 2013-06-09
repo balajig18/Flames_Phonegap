@@ -1,0 +1,30 @@
+
+.button {
+	-moz-box-shadow:inset 0px 0px 0px 0px #f6dcfb;
+	-webkit-box-shadow:inset 0px 0px 0px 0px #f6dcfb;
+	box-shadow:inset 0px 0px 0px 0px #f6dcfb;
+	background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #f1bdfa), color-stop(1, #da80ea) );
+	background:-moz-linear-gradient( center top, #f1bdfa 5%, #da80ea 100% );
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#f1bdfa', endColorstr='#da80ea');
+	background-color:#f1bdfa;
+	-moz-border-radius:15px;
+	-webkit-border-radius:15px;
+	border-radius:15px;
+	border:4px solid #e284f3;
+	display:inline-block;
+	color:#ffffff;
+	font-family:Trebuchet MS;
+	font-size:27px;
+	font-weight:bold;
+	padding:3px 31px;
+	text-decoration:none;
+	text-shadow:2px 3px 0px #b952cc;
+}.button:hover {
+	background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #da80ea), color-stop(1, #f1bdfa) );
+	background:-moz-linear-gradient( center top, #da80ea 5%, #f1bdfa 100% );
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#da80ea', endColorstr='#f1bdfa');
+	background-color:#da80ea;
+}.button:active {
+	position:relative;
+	top:1px;
+}
